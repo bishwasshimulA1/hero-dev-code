@@ -37,7 +37,9 @@ font-size:40px;
     color:#757575;
     margin-bottom:30px;
 }
-
+.text-center{
+    text-align:center;
+}
 
 /* main style */
 header{
@@ -259,7 +261,6 @@ margin-bottom:10px;
     color:#D1D1D1;
 
 }
-
 .experience .resume-card .university{
 font-size:20px;
 color:#757575;
@@ -270,9 +271,57 @@ font-size:16px;
 color:#757575;
 line-height: 28px;
 }
+/* style footer container */
 
+footer{
+    margin-top:114px;
+    padding:130px 0;
+    background-color: #FFF8F3;
+}
+.footer-container{
+width:71%;
+max-width:1140px;
+margin:0 auto;
+display:flex;
+gap:117px;
 
+}
+.footer-container h2{
+    font-size:35px;
+    color:#181818;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.social{
+    max-width:562px;
 
+}
+.social p{
+    color:#474747;
+    line-height: 28px;
+    font-size:16px;
+    margin-bottom:30px;
+}
+.social .icons img{
+
+    height: 24px;
+    width: 24px;
+}
+.social .icons a{
+margin-right:24px;   
+}
+
+.footer-container form input[type='text'],.footer-container form  textarea{
+    width:461px;
+    padding:18px 31px;
+    margin-bottom:24px;
+    border:none;
+    border-radius:5px;
+    color:#757575;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+}
 
 
 
