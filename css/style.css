@@ -143,7 +143,7 @@ margin-bottom:30px;
     font-size: 20px;
     color:#474747;
 }
-#skill{
+#skill,#resume{
 padding-top:130px;
 
 }
@@ -198,5 +198,81 @@ margin-bottom:30px;
     font-size:16px;
     color:#757575;
 }
+/* Design resume container */
+#resume .resume-container{
+    margin:113px auto 0;
+    width:71%;
+    max-width:1140px;
+    display: flex;
+    gap:24px;
+}
+
+#resume .resume-container .education h2{
+    font-size:30px;
+    color:#474747;
+    margin-bottom:30px;
+
+}
+#resume .resume-container .resume-card{
+max-width:511px;
+
+}
+#resume .resume-container .resume-card h4{
+font-size:25px;
+font-weight: bold;
+color:#474747;
+margin-bottom:10px;
+
+}
+#resume .resume-container .resume-card .university{
+font-size:20px;
+color:#757575;
+margin-bottom:20px;
+}
+#resume .resume-container .resume-card .skill-des{
+font-size:16px;
+color:#757575;
+line-height: 28px;
+color:#757575;
+margin-bottom:30px;
+
+}
+
+.experience h2{
+font-size:30px;
+color:#474747;
+font-weight: bold;
+margin-bottom:30px;
+}
+.experience .resume-card h4{
+color:#474747;
+font-size:25px;
+font-weight: bold;
+margin-bottom:10px;
+}
+.experience .resume-card hr{
+    margin:30px auto;
+    color:#D1D1D1
+}
+.education .resume-card hr{
+    margin:30px auto;
+    color:#D1D1D1;
+
+}
+
+.experience .resume-card .university{
+font-size:20px;
+color:#757575;
+margin-bottom:20px;
+}
+.experience .resume-card .skill-des{
+font-size:16px;
+color:#757575;
+line-height: 28px;
+}
+
+
+
+
 
 
